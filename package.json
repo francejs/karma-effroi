@@ -1,0 +1,37 @@
+{
+  "name": "karma-effroi",
+  "version": "0.0.0",
+  "description": "A Karma plugin - adapter for Effroi device simulation framework.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/francejs/karma-effroi.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "effroi"
+  ],
+  "author": "Raphaël Rougeron, Nicolas Froidure",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6",
+    "karma": "~0.9",
+    "karma-jasmine": "*",
+    "grunt-karma": "~0.4",
+    "grunt-auto-release": "~0.0.2",
+    "grunt-npm": "~0.0.2",
+    "grunt-bump": "~0.0.7"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "contributors": [
+    "Vojta Jina <vojta.jina@gmail.com>",
+    "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>"
+  ]
+}
